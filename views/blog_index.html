@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="css/semantic.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<style>
+
+</style>
+<body>
+
+<header>
+    <div class="ui inverted teal vertical segment">
+        <div class="ui page grid">
+            <div class="column">
+                <a href="#"><h2 class="ui inverted header">WhiteBlue's Blog</h2></a>
+
+                <p>诶嘿~</p>
+            </div>
+        </div>
+    </div>
+    <div id="search-field" class="ui fixed sticky inverted padded page grid">
+        <div class="column">
+            <div class="four column row">
+                <div class="right floated column">
+                    <div class="ui action input">
+                        <input type="text" placeholder="Search...">
+                        <button class="ui red button">Search</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
+<div class="content">
+    <div class="ui stackable page grid">
+
+        <div class="row two column">
+            <div class="ten wide column">
+
+                <div class="ui segment article">
+                    <div class="ui breadcrumb">
+                        <a href="#" style="color:teal"><i class="home icon"></i>Home</a>
+                        <i class="right chevron icon divider"></i>
+                        <a href="#" style="color:teal">Registration</a>
+                        <i class="right chevron icon divider"></i>
+
+                        <div class="active section">Personal Information</div>
+                    </div>
+
+                    <h2 class="ui header">
+                        <i class="bookmark icon"></i>
+
+                        <div class="content column center aligned">
+                            <h2 class="">蓝白的小文章</h2>
+
+                            <div class="ui clearing divider"></div>
+                            <div class="sub header"><i class="calendar icon"></i>2015.4.5&nbsp;&nbsp;||&nbsp;&nbsp;
+                                <a href="#" style=""><i class="folder icon"></i>闲杂技能点</a>&nbsp;&nbsp;||&nbsp;&nbsp;
+                                <a href="#"><i class="user icon"></i>WhiteBlue</a>&nbsp;&nbsp;||&nbsp;&nbsp;
+                                <a href="#"><i class="comment icon"></i>暂无评论</a>&nbsp;&nbsp;
+                            </div>
+                        </div>
+                    </h2>
+
+                    <div class="my-content">
+                        Tornado 是 FriendFeed 使用的可扩展的非阻塞式 web 服务器及其相关工具的开源版本。这个 Web 框架看起来有些像 web.py 或者 Google 的
+                        webapp，不过为了能有效利用非阻塞式服务器环境，这个 Web 框架还包含了一些相关的有用工具 和优化。
+
+                        Tornado 和现在的主流 Web 服务器框架（包括大多数 Python 的框架）有着明显的区别：它是非阻塞式服务器，而且速度相当快。得利于其 非阻塞的方式和对 epoll
+                        的运用，Tornado 每秒可以处理数以千计的连接，这意味着对于实时 Web 服务来说，Tornado 是一个理想的 Web 框架。我们开发这个 Web 服务器的主要目的就是为了处理
+                        FriendFeed 的实时功能 ——在 FriendFeed 的应用里每一个活动用户都会保持着一个服务器连接。（关于如何扩容 服务器，以处理数以千计的客户端的连接的问题，请参阅 C10K
+                        problem。）
+                    </div>
+
+                    <div class="ui orange message">
+                        <div class="column center aligned">
+                            <p>转载请注明:蓝白-诶嘿</p>
+                        </div>
+
+                    </div>
+
+                    <div class="column row">
+                        <div class="left floated column">
+                            <div class="ui inverted orange button">《上一篇
+                            </div>
+                        </div>
+                        <div class="right floated column">
+                            <div class="ui inverted orange button">下一篇》
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="clear: both"></div>
+
+                    <div class="ui comments">
+                        <h3 class="ui dividing header">评论</h3>
+
+                        <div class="comment">
+                            <div class="content">
+                                <a class="author">Matt</a>
+
+                                <div class="metadata">
+                                    <span class="date">Today at 5:42PM</span>
+                                </div>
+                                <div class="text">
+                                    How artistic!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="content">
+                                <a class="author">Elliot Fu</a>
+
+                                <div class="metadata">
+                                    <span class="date">Yesterday at 12:30AM</span>
+                                </div>
+                                <div class="text">
+                                    <p>This has been very useful for my research. Thanks as well!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="content">
+                                <a class="author">Jenny Hess</a>
+
+                                <div class="metadata">
+                                    <span class="date">Just now</span>
+                                </div>
+                                <div class="text">
+                                    Elliot you are always so right :)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="content">
+                                <a class="author">Joe Henderson</a>
+
+                                <div class="metadata">
+                                    <span class="date">5 days ago</span>
+                                </div>
+                                <div class="text">
+                                    Dude, this is awesome. Thanks so much
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui borderless pagination menu" style="margin-left: 10%">
+                        <a class="item">
+                            <i class="left arrow icon"></i> Previous
+                        </a>
+                        <a class="item">1</a>
+                        <a class="item">2</a>
+                        <a class="item">3</a>
+                        <a class="item">4</a>
+                        <a class="item">5</a>
+                        <a class="item">6</a>
+                        <a class="item">
+                            Next <i class="icon right arrow"></i>
+                        </a>
+                    </div>
+
+                    <h3 class="ui dividing header">新回复</h3>
+
+                    <div class="ui form my-post-all">
+                        <div class="my-post ui labeled fluid input">
+                            <div class="ui label">
+                                昵称
+                            </div>
+                            <input type="text" placeholder="mysite.com">
+                        </div>
+
+                        <div class="my-post ui labeled fluid input">
+                            <div class="ui label">
+                                链接
+                            </div>
+                            <input type="text" placeholder="mysite.com">
+                        </div>
+
+                        <div class="field">
+                            <label>内容</label>
+                            <textarea></textarea>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="six wide column">
+                <div id="side-bar" class="right-field">
+                    <div class="ui vertical menu">
+                        <div class="header item">
+                            最近文章
+                            <span class="ui teal label">New</span>
+                        </div>
+                        <div class="text item">
+                            <p>让我们来考虑一下,我们接下来怎么样扩展我们的小程序....<a href="#">阅读更多>></a></p>
+                        </div>
+                        <div class="text item">
+                            <p>让我们来考虑一下,我们接下来怎么样扩展我们的小程序....<a href="#">阅读更多>></a></p>
+                        </div>
+                        <div class="text item">
+                            <p>让我们来考虑一下,我们接下来怎么样扩展我们的小程序....<a href="#">阅读更多>></a></p>
+                        </div>
+                        <div class="text item">
+                            <p>让我们来考虑一下,我们接下来怎么样扩展我们的小程序....<a href="#">阅读更多>></a></p>
+                        </div>
+                    </div>
+
+                    <div class="ui vertical menu">
+                        <div class="header item">
+                            功能
+                        </div>
+                        <a class="item">
+                            登陆
+                        </a>
+                        <a class="item">
+                            Enterprise
+                        </a>
+                        <a class="item">
+                            Enterprise
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <br>
+    <footer class="ui inverted black segment">
+        <div class="ui page grid">
+            <div class="column center aligned">
+
+                <p>By <a href="http://blog.whiteblue.xyz" style="color: whitesmoke">WhiteBlue</a></p>
+
+                <p>Blog By SimpleBlog</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/semantic.js"></script>
+
+<script>
+    $('.ui.sticky').sticky();
+</script>
+
+
+</body>
+</html>

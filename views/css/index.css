@@ -1,0 +1,43 @@
+body {
+    background: #EEE url(images/bg.jpg) repeat scroll 0% 0%;
+}
+
+.content {
+    padding-top: 20px
+}
+
+.right-field {
+    margin-left: 20%
+}
+
+@media screen and (max-width: 768px) {
+    #search-field,
+    #side-bar {
+        display: none;
+    }
+}
+
+#search-field {
+    background-color: whitesmoke
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+a:hover {
+    color: #d34836;
+}
+
+.my-content {
+    padding: 15px;
+    line-height: 30px
+}
+
+.my-post-all {
+    margin: 20px
+}
+
+.my-post {
+    padding: 10px
+}
