@@ -1,42 +1,25 @@
-# DemoBlog
-WEB组第一次练习 -> 简单的博客系统
+#DemoBolg
+===
 
-# 要求
-=============
-### >> 在两周以内，用PHP框架Laravel完成一个简单的个人博客系统，照着这个做就可以->[教程](https://lvwenhan.com/laravel/432.html)
-
-### >> 截止日期，11月2日。完成之后上传到自己的GitHub代码仓库。
+之前一直因为有其他的事情，没有时间弄laravel，但是看了一下好像不太难，也有详细的教程，今天下午好好弄了一下，发现还是挺重要的--MVC编程。
 
 
+花了大概三四个小时就弄好了吧，详细教程博客如下，一步一步来就好了。
 
 
-# 简单入门
-=============
-## >> 环境配置
+先看这个博客，但是里面是教你使用最新的laravel，大概是5.X，但是因为我们后面的博客教程用的不是这个，所以不要使用，**装5.0的版本**，这一点我浪费了好长时间。  
+这个装好了之后，网站的根目录就是/laravel/public/，所以在下一个博客那里就不用再设置服务器环境之类的了~~  
 
-	1. 配置PHP5.x(大于5.6)
-	2. 配置composer : http://getcomposer.org
-	3. 项目下载到本地 : git clone
+[在 Windows 上快速安装并运行 Laravel 5.x](http://www.golaravel.com/post/install-and-run-laravel-5-x-on-windows/)
 
-	
+我这里也有一份laravel-v5.0.22的安装包,[点击下载](laravel-v5.0.22.zip)
 
-## >>教程
+接下来的几个博客基本上就是手把手的教，按着做就好了。
 
-1. Lravel官方教程翻译 : [官方文档](http://www.golaravel.com/laravel/docs/5.0/)
-2. 一篇不错的Laravel中文教程 : [岁寒](https://lvwenhan.com/laravel/432.html)
-3. Git基本使用 : [中文教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-4. PHP使用文档 : [PHP.net](http://php.net/manual/zh/)
-5. W3C(入门用) : [W3C](http://www.w3school.com.cn/php/index.asp)
-	
+[Laravel 5 系列入门教程（一）【最适合中国人的 Laravel 教程】](https://lvwenhan.com/laravel/432.html)
 
-### 已有的资源:
+[Laravel 5 系列入门教程（二）【最适合中国人的 Laravel 教程】](https://lvwenhan.com/laravel/433.html)
 
-1. 静态页面半成品 : /views文件夹
-2. 框架本体 : /laravel
+[Laravel 5 系列入门教程（三）【最适合中国人的 Laravel 教程】](https://lvwenhan.com/laravel/434.html)
 
-		
-### 要求:
-
- Fork到自己的仓库里，在两周内完成。
- 
- 
+[Laravel 5 系列入门教程（四）【最适合中国人的 Laravel 教程】【完结】](https://lvwenhan.com/laravel/435.html)
