@@ -25,6 +25,6 @@
 [Laravel 5 系列入门教程（四）【最适合中国人的 Laravel 教程】【完结】](https://lvwenhan.com/laravel/435.html)
 
 记上一笔，因为之前只是照着教程做，发现写完并没有学会什么，所以准备再按着教程再来一遍，发现总是报错。
-~~~~直到把localhost的cookies给删了，那里有之前的token。
+-------直到把localhost的cookies给删了，那里有之前的token。
 
 >本人最终成品在DemoBlog里面。
